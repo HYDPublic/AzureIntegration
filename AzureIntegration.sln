@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26814.1
+VisualStudioVersion = 15.0.26919.1
 MinimumVisualStudioVersion = 15.0.26730.03
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.AzureAppServicesIntegration", "src\Microsoft.AspNetCore.AzureAppServicesIntegration\Microsoft.AspNetCore.AzureAppServicesIntegration.csproj", "{5916BEB5-0969-469B-976C-A392E015DFAC}"
 EndProject
@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF9B744E-6C5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FFE2B87-BF8A-4B38-ADAB-2FE2F9BC4A7C}"
 	ProjectSection(SolutionItems) = preProject
+		build\dependencies.props = build\dependencies.props
 		Directory.Build.props = Directory.Build.props
 		Directory.Build.targets = Directory.Build.targets
-		build\dependencies.props = build\dependencies.props
 		NuGet.config = NuGet.config
 	EndProjectSection
 EndProject
@@ -45,6 +45,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.AzureAppServices.FunctionalTests", "test\Microsoft.AspNetCore.AzureAppServices.FunctionalTests\Microsoft.AspNetCore.AzureAppServices.FunctionalTests.csproj", "{2B2C37FF-9249-4EA4-9A7F-038B55A15C2C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.AzureAppServices.TestBundle", "src\Microsoft.AspNetCore.AzureAppServices.TestBundle\Microsoft.AspNetCore.AzureAppServices.TestBundle.csproj", "{1EC31DA1-131D-4257-B001-BE8391E6077E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.AzureKeyVault.HostingStartup", "src\Microsoft.AspNetCore.AzureKeyVault.HostingStartup\Microsoft.AspNetCore.AzureKeyVault.HostingStartup.csproj", "{5037025B-30CD-4350-9400-59C4728BE90D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +102,10 @@ Global
 		{1EC31DA1-131D-4257-B001-BE8391E6077E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EC31DA1-131D-4257-B001-BE8391E6077E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EC31DA1-131D-4257-B001-BE8391E6077E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5037025B-30CD-4350-9400-59C4728BE90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5037025B-30CD-4350-9400-59C4728BE90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5037025B-30CD-4350-9400-59C4728BE90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5037025B-30CD-4350-9400-59C4728BE90D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +123,7 @@ Global
 		{0899A101-E451-40A4-81B0-7AA18202C25D} = {CD650B4B-81C2-4A44-AEF2-A251A877C1F0}
 		{2B2C37FF-9249-4EA4-9A7F-038B55A15C2C} = {CD650B4B-81C2-4A44-AEF2-A251A877C1F0}
 		{1EC31DA1-131D-4257-B001-BE8391E6077E} = {FF9B744E-6C59-40CC-9E41-9D2EBD292435}
+		{5037025B-30CD-4350-9400-59C4728BE90D} = {FF9B744E-6C59-40CC-9E41-9D2EBD292435}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5743DFE7-1AA5-439D-84AE-A480EA389927}
